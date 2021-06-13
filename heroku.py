@@ -13,8 +13,9 @@ DATABASES = {
 DEBUG = False
 TEMPLATE_DEBUG = False
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = NnUdYr28vxncCAuYyppNp33H
 ALLOWED_HOSTS = ["*"]
+DJANGO_SETTINGS_MODULE = mysite.heroku
 
 MIDDLEWARE = (
     "whitenoise.middleware.WhiteNoiseMiddleware",
